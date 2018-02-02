@@ -14,20 +14,20 @@ The plugin add some shortcodes add a link to a paper using the doi code or to re
 Using the standard for doi link, the plugin introduce a shortcode in order to create a link to a paper provided by doi.
 How to use the shortcode:
 
-[doi code="..."]Title of the paper[/doi]
+[cpdoi code="..."]Title of the paper[/doi]
 
-Using the [crossref.org](https://www.crossref.org/) api, the plugin add also a shortcode that resolve a doi code and publish a full citation formatted using the apa standard.
+Using the [crossref.org](https://www.crossref.org/) api, the plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard using the shortcode [cpdoiresolve ...].
 How to use the shortcode:
 
-[doiresolve code="..."]
+[cpdoiresolve code="..."]
 
 There are also two optional parameters:
 
-[doiresolve code="..." arxiv="..."]
+[cpdoiresolve code="..." arxiv="..."]
 
 if the paper has an arXiv version
 
-[doiresolve code="..." pdfurl="..."]
+[cpdoiresolve code="..." pdfurl="..."]
 
 if the paper has a free pdf version
 
@@ -37,6 +37,7 @@ if the paper has a free pdf version
 3. Use the shortcode into your posts or pages.
 
 == Changelog ==
+0.2.4 changed functions names
 0.2.3 add pdf link in doi resolver as ahortcode's parameter
 0.2.2 add arXiv link in doi resolver as shortcode's parameter
 0.2.1 add doi link in doi resolver
