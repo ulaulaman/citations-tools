@@ -27,9 +27,9 @@ if the paper has a free pdf version
 3. Use the shortcode into your posts or pages.
 
 # Changelog
-0.2.4 changed functions names
-0.2.3 add pdf link in doi resolver as ahortcode's parameter
-0.2.2 add arXiv link in doi resolver as shortcode's parameter
-0.2.1 add doi link in doi resolver
-0.2 add shortcode to resolve doi using code
-0.1 shortcode for doi link
+* 0.2.4 changed functions names
+* 0.2.3 add pdf link in doi resolver as ahortcode's parameter
+* 0.2.2 add arXiv link in doi resolver as shortcode's parameter
+* 0.2.1 add doi link in doi resolver
+* 0.2 add shortcode to resolve doi using code
+* 0.1 shortcode for doi link
