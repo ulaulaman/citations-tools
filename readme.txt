@@ -16,7 +16,7 @@ How to use the shortcode:
 
 [cpdoi code="..."]Title of the paper[/doi]
 
-Using the [crossref.org](https://www.crossref.org/) api, the plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard using the shortcode [cpdoiresolve ...].
+Using the [crossref.org](https://www.crossref.org/) api, the plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard with the shortcode [cpdoiresolve ...].
 How to use the shortcode:
 
 [cpdoiresolve code="..."]
