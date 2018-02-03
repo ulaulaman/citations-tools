@@ -6,7 +6,7 @@ How to use the shortcode:
 
 [cpdoi code="..."]Title of the paper[/doi]
 
-Using the [crossref.org](https://www.crossref.org/) api, the plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard with the shortcode [cpdoiresolve ...].
+The plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard with the shortcode [cpdoiresolve ...].
 How to use the shortcode:
 
 [cpdoiresolve code="..."]
@@ -20,6 +20,10 @@ if the paper has an arXiv version
 [cpdoiresolve code="..." pdfurl="..."]
 
 if the paper has a free pdf version
+
+## External service
+
+***Citations tools*** uses the [CrossRef Metadata API](http://search.crossref.org/help/api) to retrieve complete publication information using the doi code as a search query. CrossRef is a part of the [doi system](https://dx.doi.org/).
 
 # Installation
 1.  Extract the citations-tools.zip file and upload its contents to the /wp-content/plugins/ directory. Alternately, you can install directly from the Plugin directory within your WordPress Install.
