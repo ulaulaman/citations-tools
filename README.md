@@ -23,6 +23,8 @@ if the paper has a free pdf version
 
 ## External service
 
+**Digital Object Identifier**, or *DOI*, is a persistent identifier used to uniquely identify objects, standardized by the **International Organization for Standardization** (*ISO*). DOIs are mainly used to identify academic, professional, and government information, such as journal articles, research reports and data sets, official publications.
+
 ***Citations tools*** uses the [CrossRef Metadata API](http://search.crossref.org/help/api) to retrieve complete publication information using the doi code as a search query. CrossRef is a part of the [doi system](https://dx.doi.org/).
 
 # Installation
