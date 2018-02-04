@@ -2,7 +2,7 @@
 /*
 Plugin Name: Citations tools
 Description: The plugin add some shortcodes add a link to a paper using the doi code or to resolve doi code and publish a full citation apa formatted.
-Version: 0.2.4
+Version: 0.2.5
 Author: Gianluigi Filippelli
 Author URI: http://dropseaofulaula.blogspot.it/
 Plugin URI: https://github.com/ulaulaman/citations-tools
@@ -12,9 +12,9 @@ License: GPLv2 or later
 # ---------------------------------------------------------
 
 # doi
-add_shortcode('cpdoi', 'cpdoi');
+add_shortcode('ctdoi', 'ctdoi');
 
- function doi ($atts, $content = null) {
+ function ctdoi ($atts, $content = null) {
 
    extract(
       shortcode_atts(
@@ -31,9 +31,9 @@ add_shortcode('cpdoi', 'cpdoi');
 }
 
 # doi resolve
-add_shortcode('cpdoiresolve', 'cpdoiresolve');
+add_shortcode('ctdoiresolve', 'ctdoiresolve');
 
- function doiresolve ($atts, $content = null) {
+ function ctdoiresolve ($atts, $content = null) {
 
   extract(
       shortcode_atts(
