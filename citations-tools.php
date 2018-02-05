@@ -2,7 +2,7 @@
 /*
 Plugin Name: Citations tools
 Description: The plugin add some shortcodes add a link to a paper using the doi code or to resolve doi code and publish a full citation apa formatted.
-Version: 0.2.6
+Version: 0.2.6.1
 Author: Gianluigi Filippelli
 Author URI: http://dropseaofulaula.blogspot.it/
 Plugin URI: https://github.com/ulaulaman/citations-tools
