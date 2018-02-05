@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/banner-772x250.jpg" /></div>
+![](https://github.com/ulaulaman/citations-tools/blob/master/assets/banner-772x250.jpg)
 
 The plugin add a shortcode in order to link a paper using its doi code. You can also use an other shortcode to resolve doi code and publish a full citation apa formatted.
 
