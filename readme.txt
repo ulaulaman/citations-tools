@@ -33,7 +33,7 @@ if the paper has a free pdf version
 
 [ctdoiresolve code="..." archiveurl="..."]
 
-if the paper has a free version on [https://archive.org/](archive.org)
+if the paper has a free version on [archive.org](https://archive.org/)
 
 ## External service
 
@@ -50,6 +50,7 @@ if the paper has a free version on [https://archive.org/](archive.org)
 3. Use the shortcode into your posts or pages.
 
 == Changelog ==
+* 0.2.6.1 update readme.txt
 * 0.2.6 add archive.org link in doi resolver as shortcode's parameter
 * 0.2.5 fix error code
 * 0.2.4 changed functions names
