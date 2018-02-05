@@ -34,8 +34,8 @@ if the paper has a free version on [archive.org](https://archive.org/)
 ***Citations tools*** uses the [CrossRef Metadata API](http://search.crossref.org/help/api) to retrieve complete publication information using the doi code as a search query. CrossRef is a part of the [doi system](https://dx.doi.org/).
 
 ## Screenshot
-<div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/screenshot-1.jpg" /><br/>
-  <em>The doi resolver: the shortcode (up) and the results (down)</em></div>
+<div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/screenshot-1.jpg?raw=true" /><br/>
+<em>The doi resolver: the shortcode (up) and the results (down)</em></div>
 
 # Installation
 1.  Extract the citations-tools.zip file and upload its contents to the /wp-content/plugins/ directory. Alternately, you can install directly from the Plugin directory within your WordPress Install.
