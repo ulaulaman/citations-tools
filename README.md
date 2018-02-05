@@ -1,6 +1,6 @@
 <div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/banner-772x250.jpg" /></div>
 
-The plugin add some shortcodes add a link to a paper using the doi code or to resolve doi code and publish a full citation apa formatted.
+The plugin add a shortcode in order to link a paper using its doi code. You can also use an other shortcode to resolve doi code and publish a full citation apa formatted.
 
 # Description
 Using the standard for doi link, the plugin introduce a shortcode in order to create a link to a paper provided by doi.
@@ -25,7 +25,7 @@ if the paper has a free pdf version
 
 [ctdoiresolve code="..." archiveurl="..."]
 
-if the paper has a free version on [https://archive.org/](archive.org)
+if the paper has a free version on [archive.org](https://archive.org/)
 
 ## External service
 
@@ -43,6 +43,7 @@ if the paper has a free version on [https://archive.org/](archive.org)
 3. Use the shortcode into your posts or pages.
 
 # Changelog
+* 0.2.6.1 update readme.txt
 * 0.2.6 add archive.org link in doi resolver as shortcode's parameter
 * 0.2.5 fix error code
 * 0.2.4 changed functions names
