@@ -52,3 +52,11 @@ if the paper has a free version on [archive.org](https://archive.org/)
 * 0.2.1 add doi link in doi resolver
 * 0.2 add shortcode to resolve doi using code
 * 0.1 shortcode for doi link
+
+## Roadmap
+* add shortcode for manual citations (papers)
+* add shortcode for manual citations (books)
+* add arXiv resolver
+* add pubmed resolver
+* add info metabox to post
+* add shortcode buttons
