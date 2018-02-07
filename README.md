@@ -1,19 +1,25 @@
 <div align="center"><img src="https://github.com/ulaulaman/citations-tools/blob/master/assets/banner-772x250.jpg?raw=true" /></div>
 
-The plugin add a shortcode in order to link a paper using its doi code. You can also use an other shortcode to resolve doi code and publish a full citation apa formatted.
+Some tools for scientific and editorial bloggers.
 
 # Description
+The plugin add a shortcode in order to link a paper using its doi code. You can also use an other shortcode to resolve doi code and publish a full citation apa formatted. It is also a shortcode for manual citations.
+
+## Link doi
+
 Using the standard for doi link, the plugin introduce a shortcode in order to create a link to a paper provided by doi.
-How to use the shortcode:
+**How to use the shortcode**:
 
 [ctdoi code="..."]Title of the paper[/doi]
 
+## Doi resolver
+
 The plugin send the doi code to [Crossref Metadata Search](https://search.crossref.org/), get the information and publish a full citation in apa standard with the shortcode [ctdoiresolve ...].
-How to use the shortcode:
+**How to use the shortcode**:
 
 [ctdoiresolve code="..."]
 
-There are also two optional parameters:
+There are also three optional parameters:
 
 [ctdoiresolve code="..." arxiv="..."]
 
@@ -26,6 +32,18 @@ if the paper has a free pdf version
 [ctdoiresolve code="..." archiveurl="..."]
 
 if the paper has a free version on [archive.org](https://archive.org/)
+
+## Manual citations
+
+There's also a shortcode for manual citations, [paperdata ...]. You can use it with the following syntax:
+
+[paperdata auth="author/s name/s" year="..." title="..." journal="..." vol="..." issue="..." pages="..." code="..."]
+
+You can also use the arxiv, pdfurl, archiveurl parameters.
+
+## Styling
+
+You can style citations adding in your css theme the class "paperdata".
 
 ## External service
 
@@ -43,6 +61,7 @@ if the paper has a free version on [archive.org](https://archive.org/)
 3. Use the shortcode into your posts or pages.
 
 # Changelog
+* 0.3 add shortcode for manual citations
 * 0.2.6.1 update readme.txt
 * 0.2.6 add archive.org link in doi resolver as shortcode's parameter
 * 0.2.5 fix error code
@@ -54,7 +73,7 @@ if the paper has a free version on [archive.org](https://archive.org/)
 * 0.1 shortcode for doi link
 
 ## Roadmap
-* add shortcode for manual citations (papers)
+* ~~add shortcode for manual citations (papers)~~
 * add shortcode for manual citations (books)
 * add arXiv resolver
 * add pubmed resolver
