@@ -61,6 +61,7 @@ You can style citations adding in your css theme the class "paperdata".
 3. Use the shortcode into your posts or pages.
 
 # Changelog
+* 0.3.1 fix error in html script in [ctdoi] shortcode
 * 0.3 add shortcode for manual citations
 * 0.2.6.1 update readme.txt
 * 0.2.6 add archive.org link in doi resolver as shortcode's parameter
