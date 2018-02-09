@@ -2,7 +2,7 @@
 /*
 Plugin Name: Citations tools
 Description: Some tools for scientific and editorial bloggers.
-Version: 0.3
+Version: 0.3.1
 Author: Gianluigi Filippelli
 Author URI: http://dropseaofulaula.blogspot.it/
 Plugin URI: https://ulaulaman.github.io/citations-tools/
@@ -25,7 +25,7 @@ add_shortcode('ctdoi', 'ctdoi');
       )
    );
 
-   $link = '<a href="https://dx.doi.org/'.$code.'/" target="doi">'.$content.'</a>';
+   $link = '<a href="https://dx.doi.org/'.$code.'" target="doi">'.$content.'</a>';
 
    return $link;
 }
