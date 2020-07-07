@@ -2,12 +2,13 @@
 Contributors: ulaulaman
 Tags: doi, citations, research, blog, blogging, research blogging, arXiv
 Requires at least: 4.8.5
-Tested up to: 4.9.3
+Tested up to: 4.9.5
 Requires PHP: 7.0.18
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Developer version of the homonym plugin on Worpdress repository
 Some tools for scientific and editorial bloggers.
 
 == Description ==
@@ -68,6 +69,7 @@ You can style citations adding in your css theme the class "paperdata".
 3. Use the shortcode into your posts or pages.
 
 == Changelog ==
+* 0.3.2 add compatibility with Wordpress 4.9.5
 * 0.3.1 fix error in html script in [ctdoi] shortcode
 * 0.3 add shortcode for manual citations
 * 0.2.6.1 update readme.txt

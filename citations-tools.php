@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Citations tools
+Plugin Name: Citations tools dev. version
 Description: Some tools for scientific and editorial bloggers.
-Version: 0.3.1
+Version: 0.3.2
 Author: Gianluigi Filippelli
 Author URI: http://dropseaofulaula.blogspot.it/
 Plugin URI: https://ulaulaman.github.io/citations-tools/
