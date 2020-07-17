@@ -5,8 +5,8 @@ on:
     - "0.3.2"
 jobs:
   tag:
-    name: New tag
-    runs-on: ubuntu-latest
+    name: 0.3.2
+    runs-on: wordpress 4.9.5
     steps:
     - uses: actions/checkout@master
     - name: Build # Remove or modify this step as needed
