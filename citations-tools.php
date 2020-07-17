@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Citations tools dev. version
+Plugin Name: Citations tools
 Description: Some tools for scientific and editorial bloggers.
 Version: 0.3.2
 Author: Gianluigi Filippelli
