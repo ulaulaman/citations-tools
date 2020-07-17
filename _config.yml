@@ -1,1 +1,7 @@
 theme: jekyll-theme-leap-day
+
+- name: WordPress Plugin Deploy
+  uses: 10up/action-wordpress-plugin-deploy@1.5.0
+
+- name: WordPress Plugin Readme/Assets Update
+  uses: 10up/action-wordpress-plugin-asset-update@1.4.1
