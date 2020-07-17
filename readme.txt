@@ -8,7 +8,6 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Developer version of the homonym plugin on Worpdress repository
 Some tools for scientific and editorial bloggers.
 
 == Description ==
