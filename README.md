@@ -61,6 +61,7 @@ You can style citations adding in your css theme the class "paperdata".
 3. Use the shortcode into your posts or pages.
 
 # Changelog
+* 0.3.2 add compatibility with Wordpress 4.9.5
 * 0.3.1 fix error in html script in [ctdoi] shortcode
 * 0.3 add shortcode for manual citations
 * 0.2.6.1 update readme.txt
@@ -75,8 +76,6 @@ You can style citations adding in your css theme the class "paperdata".
 
 ## Roadmap
 * ~~add shortcode for manual citations (papers)~~
+* add shortcode buttons for TynyMCE
+* verify compatibility with gutenberg
 * add shortcode for manual citations (books)
-* add arXiv resolver
-* add pubmed resolver
-* add info metabox to post
-* add shortcode buttons
