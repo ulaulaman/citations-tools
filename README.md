@@ -73,9 +73,3 @@ You can style citations adding in your css theme the class "paperdata".
 * 0.2.1 add doi link in doi resolver
 * 0.2 add shortcode to resolve doi using code
 * 0.1 shortcode for doi link
-
-## Roadmap
-* ~~add shortcode for manual citations (papers)~~
-* add shortcode buttons for TynyMCE
-* verify compatibility with gutenberg
-* add shortcode for manual citations (books)
